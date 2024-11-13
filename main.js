@@ -2105,6 +2105,25 @@ let users = [
 
 
 // 1) her seherde ne qeder insan qaldigini tapan function qurun
+// muellim basa saldigi kimi olan
+// const filterCity = () => {
+//     let detail ={}
+//     users.forEach((item) => {
+//         const city = item.address.city;
+//         if(detail[city]){
+//             detail[city]++
+//         }else
+//         {
+//             detail[city]=1
+//         }
+//     })
+//     console.log(detail);
+    
+    
+// }
+// filterCity()
+
+
 
 // const filterCity = () => {
 //     let countCity = {}
@@ -2133,7 +2152,7 @@ let users = [
 // const filterDepartment =()=>users.filter(item => item.company.department=="Accounting")
 // console.log(filterDepartment());
 
-// 4) emailde gmail.com ile bitenleri secib bir arraya yigan func yazin 
+// 4) emailde gmail.com ile bitenleri secib bir arraya yigan func yazin
 
 // const filterEmail =()=>  users.filter(item => item.email.endsWith("gmail.com"))
 
